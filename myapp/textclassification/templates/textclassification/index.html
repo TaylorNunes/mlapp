@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Classification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h2>Classification of Japanese and English</h2>
+    <form action='' method="post" id="myform" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form }}
+      <input type="submit" value="Submit">
+      <br>
+      {{ classification_statement}}
+    </form>
+
+  </body>
+</html>
