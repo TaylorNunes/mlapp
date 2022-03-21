@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'audioclassification.apps.AudioclassificationConfig',
+    #'audioclassification.apps.AudioclassificationConfig',
     'textclassification.apps.TextclassificationConfig',
     'django.contrib.admin',
     'django.contrib.auth',
