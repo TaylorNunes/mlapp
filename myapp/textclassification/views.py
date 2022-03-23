@@ -8,6 +8,7 @@ from .classifier import TextClassifier
 # Create your views here.
 
 def index(request):
+  form = text_form()
   classifier = cache.get('clf_key')
   if classifier is None:
     classifier = TextClassifier()
